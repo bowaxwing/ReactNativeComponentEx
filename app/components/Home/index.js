@@ -52,6 +52,7 @@ export default class extends Component {
                     <ComponentItem name="StatusBar" {...this.props} />
                     <ComponentItem name="Switch" {...this.props} />
                     <ComponentItem name="Text" {...this.props} />
+                    <ComponentItem name="TextInput" {...this.props} />
                     <ComponentItem name="TouchableHighlight" {...this.props} />
                     <ComponentItem name="TouchableOpacity" {...this.props} />
                     <ComponentItem name="TouchableWithoutFeedback" {...this.props} />

@@ -23,23 +23,23 @@ export default class extends Component {
                 <KeyboardAvoidingView behavior="padding" contentContainerStyle={Style.keyboardWrap} style={Style.keyboardWrap}>
                     <ScrollView style={Style.Contents}>
                         <View style={Style.Item}>
-                            <Text>autoCapitalize : 'none', 'sentences'(default), 'words', 'characters'</Text>
+                            <Text>1. autoCapitalize 테스트 ('none', 'sentences'(default), 'words', 'characters')</Text>
                             <TextInput autoCorrect={false} autoCapitalize="none" style={Style.textInput} />
                         </View>
                         <View style={Style.Item}>
-                            <Text>defaultValue</Text>
+                            <Text>2. defaultValue</Text>
                             <TextInput defaultValue="defaultValue" style={Style.textInput} />
                         </View>
                         <View style={Style.Item}>
-                            <Text>placeholder</Text>
+                            <Text>3. placeholder</Text>
                             <TextInput placeholder="placeholder" placeholderTextColor="red" style={Style.textInput} />
                         </View>
                         <View style={Style.Item}>
-                            <Text>keyboardType // Cross-platform 'default', 'email-address', 'numeric', 'phone-pad',</Text>
+                            <Text>4. keyboardType // Cross-platform 'default', 'email-address', 'numeric', 'phone-pad',</Text>
                             <TextInput placeholder="placeholder" keyboardType="default" style={Style.textInput} />
                         </View>
                         <View style={Style.Item}>
-                            <Text>multiline</Text>
+                            <Text>5. multiline</Text>
                             <Text>onContentSizeChange를 통해서 height 변경</Text>
                             <TextInput
                                 multiline={true}
@@ -49,11 +49,11 @@ export default class extends Component {
                                 style={[Style.textInput, {height: Math.max(44, this.state.height)}]} />
                         </View>
                         <View style={Style.Item}>
-                            <Text>secureTextEntry</Text>
+                            <Text>6. secureTextEntry</Text>
                             <TextInput secureTextEntry={true} style={Style.textInput} />
                         </View>
                         <View style={Style.Item}>
-                            <Text>returnKeyType // Cross-platform 'done', 'go', 'next', 'search', 'send', </Text>
+                            <Text>7. returnKeyType // Cross-platform 'done', 'go', 'next', 'search', 'send', </Text>
                             <TextInput returnKeyType="done" style={Style.textInput} />
                         </View>
                     </ScrollView>

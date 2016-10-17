@@ -37,13 +37,13 @@ export default class extends Component {
             <Wrapper title="Image 예제" {...this.props}>
                 <ScrollView style={Style.Contents}>
                     <View style={Style.Item}>
-                        <Text>0. 로컬 파일 (require)</Text>
+                        <Text>1. 로컬 파일 (require)</Text>
                         <ImageCustom
                             source={require('./../../resource/images/wisePhoto.jpeg')}
                         />
                     </View>
                     <View style={Style.Item}>
-                        <Text>1. 나머진 모두 uri, 이미지 크기 460,460 (현재 컴포넌트 200, 80) </Text>
+                        <Text>2. 나머진 모두 uri, 이미지 크기 460,460 (현재 컴포넌트 200, 80) </Text>
                         <ImageCustom
                             onLayout={(e)=> {
                                 console.log("onLayout", e.nativeEvent)
@@ -60,23 +60,23 @@ export default class extends Component {
                         />
                     </View>
                     <View style={Style.Item}>
-                        <Text>2. resizeMode : cover </Text>
+                        <Text>3. resizeMode : cover </Text>
                         <ImageCustom resizeMode="cover" />
                     </View>
                     <View style={Style.Item}>
-                        <Text>3. resizeMode : contain </Text>
+                        <Text>4. resizeMode : contain </Text>
                         <ImageCustom resizeMode="contain" />
                     </View>
                     <View style={Style.Item}>
-                        <Text>4. resizeMode : stretch </Text>
+                        <Text>5. resizeMode : stretch </Text>
                         <ImageCustom resizeMode="stretch" />
                     </View>
                     <View style={Style.Item}>
-                        <Text>5. resizeMode : center </Text>
+                        <Text>6. resizeMode : center </Text>
                         <ImageCustom resizeMode="center" />
                     </View>
                     <View style={Style.Item}>
-                        <Text>6. resizeMode : repeat - iOS only </Text>
+                        <Text>7. resizeMode : repeat - iOS only </Text>
                         <ImageCustom resizeMode="repeat" />
                     </View>
                 </ScrollView>

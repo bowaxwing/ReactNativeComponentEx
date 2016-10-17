@@ -25,9 +25,9 @@ export default class extends Component {
         return (
             <Wrapper title="Picker 예제" {...this.props}>
                 <ScrollView style={Style.Contents}>
-                    <View style={styles.PickerWrap}>
+                    <View style={Style.PickerWrap}>
                         <Picker
-                            style={styles.Picker}
+                            style={Style.Picker}
                             selectedValue={this.state.selected1}
                             onValueChange={this.onValueChange.bind(this, 'selected1')}>
                             <Picker.Item label="hello - 1" value="key0" />

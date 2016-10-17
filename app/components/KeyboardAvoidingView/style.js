@@ -6,6 +6,7 @@ export const Style = StyleSheet.create({
     keyboardWrap : {
         flex:1,
         justifyContent : "center",
+        backgroundColor: "yellow"
     },
     Contents : {
         flex : 1,
