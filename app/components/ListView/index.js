@@ -91,7 +91,7 @@ export default class extends Component {
                 />
                 <View style={Style.chageDataView}>
                     <TouchableOpacity style={Style.BtnChageData} onPress={()=>this.rowDelete()} activeOpacity={0.65}>
-                        <Text style={Style.PrevBtnText}>5번 데이터 삭제</Text>
+                        <Text style={Style.PrevBtnText}>5번째 데이터 삭제</Text>
                     </TouchableOpacity>
                 </View>
             </Wrapper>
