@@ -112,4 +112,4 @@ Xcode에 Info.plist 파일 > App Transport Security Settings > Exception Domains
 
 Xcode에서 command + shift + K, command + shift + B 재빌드 해서 다시보면 잘나옴
 
-![결과화면](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-3.png)
+![결과화면](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-2.png)
