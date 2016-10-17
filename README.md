@@ -94,7 +94,7 @@ renderFooter는 데이터가 있는 경우 변경되는 과정에서 Indicator�
 구글 지도가 연동되어 다양한 속성이 있으니, 한번씩 따라해보자.
 샘플은 showsUserLocation={true}, annotations의 longitude, latitude, title 적용.
 
-![MapView 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-5-1.png)
+![MapView 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-5-2.png)
 
 ## Modal
 
