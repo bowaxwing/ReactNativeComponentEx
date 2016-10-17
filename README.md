@@ -60,16 +60,19 @@ Indicator : 흔히 사용하는 로딩상태 표시
 입력창에 포커스가 갔을 때, 하단에 올라오는 키보드의 영역을 padding, position으로 처리할 수 있다.
 
 일단 시뮬레이터에서 키보드를 확인 하기위하여 다음과 같은 옵션을 활성화 시킨다.
+
 (Hardware > Keyboard > Toggle Software Keyboard 체크 후 확인)
 ![KeyboardAvoidingView 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-3-1.png)
 
 padding 설정 후 입력창을 클릭하고 위, 아래로 ScrollView 영역을 확인해본다.
 키보드 높이 만큼 KeyboardAvoidingView 영역 하단에 padding이 적용되는 것을 확인 할 수 있다.
+
 ![KeyboardAvoidingView 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-3-2.png)
 ![KeyboardAvoidingView 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-3-3.png)
 
 position 설정 후 키보드의 높이 만큼, KeyboardAvoidingView가 올라가는 것을 확인 할 수 있다.
 여기서 StatusBar, 위에 있는 컴포넌트 영역도 다 밀어내고 스크롤로 확인 할 수 없으며, 포커스 아웃으로 해당 영역은 재확인이 가능하다. (결국 KeyboardAvoidingView 영역의 높이값 유지)
+
 ![KeyboardAvoidingView 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-3-4.png)
 
 개인적으로 ScrollView가 있는 경우 padding으로, 없는 경우 position을 활용하면 좋을 것 같다.
@@ -89,12 +92,14 @@ renderFooter는 데이터가 있는 경우 변경되는 과정에서 Indicator�
 ## MapView
 
 구글 지도가 연동되어 다양한 속성이 있으니, 한번씩 따라해보자.
-샘플은 showsUserLocation={true},  annotations의 longitude, latitude, title 적용
+샘플은 showsUserLocation={true}, annotations의 longitude, latitude, title 적용.
+
 ![MapView 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-5-1.png)
 
 ## Modal
 
 전체 화면을 덮는 모달. (StatusBar도 덮음.)
+
 ![Modal 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-6-1.png)
 ![Modal 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-6-2.png)
 
@@ -109,14 +114,17 @@ Navigator를 그냥 사용하면 몇가지 원치 않는 기본 값들이 있고
 ## Picker
 
 Picker 예제 - IOS
+
 ![Picker 예제 - IOS](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-7-1.png)
 
 Picker 예제 - Android
+
 ![Picker 예제 - Android](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-7-2.png)
 
 ## RefreshControl
 
 일반적인 앱에서 화면을 새로고침하고 싶은 경우 사용.
+
 ![RefreshControl 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-8-1.png)
 
 ## ScrollView
@@ -132,17 +140,20 @@ Picker 예제 - Android
 ## Slider
 
 minimumValue={1}, maximumValue={100}, step={1}, onValueChange를 이용하여 value 변경시 텍스트 변경한 예제.
+
 ![Slider 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-10-1.png)
 
 ## StatusBar
 
 컨텐츠 영역 상단의 StatusBar. IOS와 Android와 상단에 간격을 가지고 있고 가지지 않는 차이가 있어서 스타일로 Platform.OS를 분기하여 처리. (더 좋은 방법이 있으면 알려주세요)
 animated={true}, hidden={false}, backgroundColor="blue" // 안드로이드용, barStyle="default" // IOS용 를 적용한 예제.
+
 ![StatusBar 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-11-1.png)
 
 ## Switch
 
 스위치 on, off 의 예제
+
 ![Switch 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-12-1.png)
 
 ## Text
