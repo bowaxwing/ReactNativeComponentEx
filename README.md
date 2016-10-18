@@ -62,6 +62,7 @@ Indicator : 흔히 사용하는 로딩상태 표시
 일단 시뮬레이터에서 키보드를 확인 하기위하여 다음과 같은 옵션을 활성화 시킨다.
 
 (Hardware > Keyboard > Toggle Software Keyboard 체크 후 확인)
+
 <img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-3-1.png" width="40%" alt="KeyboardAvoidingView 예제" />
 
 padding 설정 후 입력창을 클릭하고 위, 아래로 ScrollView 영역을 확인해본다.
@@ -211,7 +212,7 @@ Xcode에 Info.plist 파일 > App Transport Security Settings > Exception Domains
 
 +로 경로 추가(ex:wagunblog.com - Dictionary) > NSTemporaryExceptionAllowsInsecureHTTPLoads : true 설정
 
-<img src="추가완료화면" width="40%" alt="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-3.png" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-3.png" width="40%" alt="추가완료화면" />
 
 Xcode에서 command + shift + K, command + shift + B 재빌드 해서 다시보면 잘나옴
 
