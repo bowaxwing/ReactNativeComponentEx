@@ -38,7 +38,7 @@ Indicator : 흔히 사용하는 로딩상태 표시
 4. size="large" 속성
 5. color="red"
 
-![ActivityIndicator 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-1-1.png)
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-1-1.png" width="40%" alt="ActivityIndicator 예제" />
 
 ## Image
 
@@ -52,8 +52,8 @@ Indicator : 흔히 사용하는 로딩상태 표시
 6. resizeMode="center" 속성
 7. resizeMode="repeat" 속성
 
-![Image 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-2-1.png)
-![Image 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-2-2.png)
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-2-1.png" width="40%" alt="Image 예제" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-2-2.png" width="40%" alt="Image 예제" />
 
 ## KeyboardAvoidingView
 
@@ -62,18 +62,18 @@ Indicator : 흔히 사용하는 로딩상태 표시
 일단 시뮬레이터에서 키보드를 확인 하기위하여 다음과 같은 옵션을 활성화 시킨다.
 
 (Hardware > Keyboard > Toggle Software Keyboard 체크 후 확인)
-![KeyboardAvoidingView 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-3-1.png)
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-3-1.png" width="40%" alt="KeyboardAvoidingView 예제" />
 
 padding 설정 후 입력창을 클릭하고 위, 아래로 ScrollView 영역을 확인해본다.
 키보드 높이 만큼 KeyboardAvoidingView 영역 하단에 padding이 적용되는 것을 확인 할 수 있다.
 
-![KeyboardAvoidingView 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-3-2.png)
-![KeyboardAvoidingView 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-3-3.png)
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-3-2.png" width="40%" alt="KeyboardAvoidingView 예제" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-3-3.png" width="40%" alt="KeyboardAvoidingView 예제" />
 
 position 설정 후 키보드의 높이 만큼, KeyboardAvoidingView가 올라가는 것을 확인 할 수 있다.
 여기서 StatusBar, 위에 있는 컴포넌트 영역도 다 밀어내고 스크롤로 확인 할 수 없으며, 포커스 아웃으로 해당 영역은 재확인이 가능하다. (결국 KeyboardAvoidingView 영역의 높이값 유지)
 
-![KeyboardAvoidingView 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-3-4.png)
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-3-4.png" width="40%" alt="KeyboardAvoidingView 예제" />
 
 개인적으로 ScrollView가 있는 경우 padding으로, 없는 경우 position을 활용하면 좋을 것 같다.
 
@@ -87,21 +87,21 @@ rowHasChanged를 통해서 기존의 데이터와 비교해서 변경되는 내�
 
 renderFooter는 데이터가 있는 경우 변경되는 과정에서 Indicator로 활용.
 
-![ListView 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-4-1.png)
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-4-1.png" width="40%" alt="ListView 예제" />
 
 ## MapView
 
 구글 지도가 연동되어 다양한 속성이 있으니, 한번씩 따라해보자.
 샘플은 showsUserLocation={true}, annotations의 longitude, latitude, title 적용.
 
-![MapView 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-5-2.png)
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-5-2.png" width="40%" alt="MapView 예제" />
 
 ## Modal
 
 전체 화면을 덮는 모달. (StatusBar도 덮음.)
 
-![Modal 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-6-1.png)
-![Modal 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-6-2.png)
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-6-1.png" width="40%" alt="Modal 예제" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-6-2.png" width="40%" alt="Modal 예제" />
 
 ## Navigator
 
@@ -115,17 +115,17 @@ Navigator를 그냥 사용하면 몇가지 원치 않는 기본 값들이 있고
 
 Picker 예제 - IOS
 
-![Picker 예제 - IOS](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-7-1.png)
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-7-1.png" width="40%" alt="Picker 예제 - IOS" />
 
 Picker 예제 - Android
 
-![Picker 예제 - Android](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-7-2.png)
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-7-2.png" width="40%" alt="Picker 예제 - Android" />
 
 ## RefreshControl
 
 일반적인 앱에서 화면을 새로고침하고 싶은 경우 사용.
 
-![RefreshControl 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-8-1.png)
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-8-1.png" width="40%" alt="RefreshControl 예제" />
 
 ## ScrollView
 
@@ -135,33 +135,33 @@ Picker 예제 - Android
 2. TextInput-1에 입력창이 활성화 된 상태에서 TextInput-2를 바로 입력하기 위해서 keyboardShouldPersistTaps={true} 를 설정한다. 그렇지 않으면 키보드가 닫히고 한번 더 눌러야 입력이 가능해진다.
 3. horizontal={true} 를 이용하여 스크롤 방향을 설정할 수 있다.
 
-![ScrollView 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-9-1.png)
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-9-1.png" width="40%" alt="ScrollView 예제" />
 
 ## Slider
 
 minimumValue={1}, maximumValue={100}, step={1}, onValueChange를 이용하여 value 변경시 텍스트 변경한 예제.
 
-![Slider 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-10-1.png)
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-10-1.png" width="40%" alt="Slider 예제" />
 
 ## StatusBar
 
 컨텐츠 영역 상단의 StatusBar. IOS와 Android와 상단에 간격을 가지고 있고 가지지 않는 차이가 있어서 스타일로 Platform.OS를 분기하여 처리. (더 좋은 방법이 있으면 알려주세요)
 animated={true}, hidden={false}, backgroundColor="blue" // 안드로이드용, barStyle="default" // IOS용 를 적용한 예제.
 
-![StatusBar 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-11-1.png)
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-11-1.png" width="40%" alt="StatusBar 예제" />
 
 ## Switch
 
 스위치 on, off 의 예제
 
-![Switch 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-12-1.png)
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-12-1.png" width="40%" alt="Switch 예제" />
 
 ## Text
 
 1. numberOfLines 으로 라인수 설정
 2.  <Text><Text>Nesting 테스트</Text></Text> 와 같은 Nesting 확인해보기.
 
-![Text 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-13-1.png)
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-13-1.png" width="40%" alt="Text 예제" />
 
 ## TextInput
 
@@ -175,15 +175,15 @@ animated={true}, hidden={false}, backgroundColor="blue" // 안드로이드용, b
 6. secureTextEntry (HTML에서 input type="password"로 이해하면 될 듯)
 7. returnKeyType (다음 버튼의 타입 선택) // Cross-platform 'done', 'go', 'next', 'search', 'send'
 
-![Text 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-15-1.png)
-![Text 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-15-2.png)
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-15-1.png" width="40%" alt="Text 예제" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-15-2.png" width="40%" alt="Text 예제" />
 
 ## TouchableHighlight
 
 터치시 underlayColor를 통해 색상 변경(기본은 검은색), activeOpacity로 opacity 적용가능.
 
-![TouchableHighlight 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-14-1.png)
-![TouchableHighlight 예제](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-14-2.png)
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-14-1.png" width="40%" alt="TouchableHighlight 예제" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-14-2.png" width="40%" alt="TouchableHighlight 예제" />
 
 ## TouchableOpacity
 
@@ -205,14 +205,14 @@ flexbox, style, 약간의 터치조작, 접근성 컨트을 지원합니다.
 
 원하는 uri를 넣었는데 다음과 같은 오류가 발생했다면...
 
-![오류화면](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-1.png)
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-1.png" width="40%" alt="오류화면" />
 
 Xcode에 Info.plist 파일 > App Transport Security Settings > Exception Domains 에 
 
 +로 경로 추가(ex:wagunblog.com - Dictionary) > NSTemporaryExceptionAllowsInsecureHTTPLoads : true 설정
 
-![추가완료화면](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-3.png)
+<img src="추가완료화면" width="40%" alt="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-3.png" />
 
 Xcode에서 command + shift + K, command + shift + B 재빌드 해서 다시보면 잘나옴
 
-![결과화면](http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-2.png)
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/10/react-native-component-2.png" width="40%" alt="결과화면" />
